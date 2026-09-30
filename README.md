@@ -20,7 +20,7 @@ Qoder：
 
 ```bash
 mkdir -p ~/.qoder/skills
-git clone git@github.com:strongwong/zh-doc-writing.git ~/.qoder/skills/zh-doc-writing
+git clone https://github.com/strongwong/zh-doc-writing.git ~/.qoder/skills/zh-doc-writing
 ```
 
 重启会话或运行 `/skills reload` 后生效。
@@ -29,7 +29,7 @@ Claude Code：
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone git@github.com:strongwong/zh-doc-writing.git ~/.claude/skills/zh-doc-writing
+git clone https://github.com/strongwong/zh-doc-writing.git ~/.claude/skills/zh-doc-writing
 ```
 
 其他支持 Skill 的 agent（Codex、OpenCode 等）结构相同，把目录放到各自软件的 skills 目录即可，路径见对应软件的文档。
